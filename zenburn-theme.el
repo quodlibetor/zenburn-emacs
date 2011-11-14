@@ -374,6 +374,16 @@
    `(org-upcoming-deadline ((,class (:inherit font-lock-keyword-face))))
    `(org-warning ((,class (:bold t :foreground ,zenburn-red :weight bold))))
 
+   ;; reStructuredText
+   `(rst-level-1-face ((,class (:foreground ,zenburn-orange   :background ,zenburn-bg-1))))
+   `(rst-level-2-face ((,class (:foreground ,zenburn-green+1  :background ,zenburn-bg-1))))
+   `(rst-level-3-face ((,class (:foreground ,zenburn-blue-1   :background ,zenburn-bg-1))))
+   `(rst-level-4-face ((,class (:foreground ,zenburn-yellow-2 :background ,zenburn-bg-1))))
+   `(rst-level-5-face ((,class (:foreground ,zenburn-cyan     :background ,zenburn-bg-1))))
+   `(rst-level-6-face ((,class (:foreground ,zenburn-green-1  :background ,zenburn-bg-1))))
+   `(rst-level-7-face ((,class (:foreground ,zenburn-red-4    :background ,zenburn-bg-1))))
+   `(rst-level-8-face ((,class (:foreground ,zenburn-blue-4   :background ,zenburn-bg-1))))
+
    ;; outline
    `(outline-8 ((,class (:inherit default))))
    `(outline-7 ((,class (:inherit outline-8 :height 1.0))))

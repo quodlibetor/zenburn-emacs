@@ -385,6 +385,16 @@
      (org-upcoming-deadline ((t (:inherit font-lock-keyword-face))))
      (org-warning ((t (:bold t :foreground ,zenburn-red :weight bold))))
 
+     ;;reStructuredText
+     (rst-level-1-face ((t (:foreground ,zenburn-orange   :background ,zenburn-bg-1))))
+     (rst-level-2-face ((t (:foreground ,zenburn-green+1  :background ,zenburn-bg-1))))
+     (rst-level-3-face ((t (:foreground ,zenburn-blue-1   :background ,zenburn-bg-1))))
+     (rst-level-4-face ((t (:foreground ,zenburn-yellow-2 :background ,zenburn-bg-1))))
+     (rst-level-5-face ((t (:foreground ,zenburn-cyan     :background ,zenburn-bg-1))))
+     (rst-level-6-face ((t (:foreground ,zenburn-green-1  :background ,zenburn-bg-1))))
+     (rst-level-7-face ((t (:foreground ,zenburn-red-4    :background ,zenburn-bg-1))))
+     (rst-level-8-face ((t (:foreground ,zenburn-blue-4   :background ,zenburn-bg-1))))
+
      ;; outline
      (outline-8 ((t (:inherit default))))
      (outline-7 ((t (:inherit outline-8 :height 1.0))))
